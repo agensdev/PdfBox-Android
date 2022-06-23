@@ -157,7 +157,7 @@ public class MainActivity extends Activity {
         // Render the page and save it to an image file
         try {
             // Load in an already created PDF
-            PDDocument document = PDDocument.load(assetManager.open("Created.pdf"));
+            PDDocument document = PDDocument.load(assetManager.open("Annotations.pdf"));
             // Create a renderer for the document
             PDFRenderer renderer = new PDFRenderer(document);
             // Render the image to an RGB Bitmap
